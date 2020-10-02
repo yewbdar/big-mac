@@ -1,0 +1,22 @@
+.app{
+  margin-top: 2%;
+}
+.top,.middle,.bottom {
+  width: 100%;
+  height: 250px;
+  background-color: lightgray;
+  box-shadow:2px 5px #888888;
+   margin-top:5px
+} 
+.top,.bottom,.middle{
+  display: flex;
+  flex-direction: column; 
+  justify-items: center;
+}
+label{
+  color:red
+}
+p , .inputHolder{
+  margin-left: 2%;
+}
+ 
